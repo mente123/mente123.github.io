@@ -1,80 +1,82 @@
 body {
-    font-size: 0.8em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  header nav section footer article {
-    border: 1px solid black;
-    margin: 5px;
-    padding: 5px;
-  }
-  
-  nav ul {
-    margin: 0%;
-    padding: 0%;
-  }
-  nav ul li {
-    display: inline;
-    margin: 5px;
-  }
-  
-  header footer {
-    color: white;
-    background-color: black;
-    margin-bottom: 5px;
+  font-size: 0.8em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header nav section footer article {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+nav ul {
+  margin: 0%;
+  padding: 0%;
+}
+nav ul li {
+  display: inline;
+  margin: 5px;
+}
+
+header footer {
+  color: white;
+  background-color: black;
+  margin-bottom: 5px;
+  text-align: center;
+}
+#f1{
     text-align: center;
-  }
-  #f1{
-      text-align: center;
-  }
-  section {
-    background-color: #ddd;
-  }
-  
-  /*================W3 School Exercise=============*/
-  
-  /*styling a link in different style*/
-  
-  h1 {
-    color: blue;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  h2 {
-    background-color: transparent;
-    color: brown;
-    text-decoration: underline;
-    text-align:center;
-  
-  }
-  
-  a :link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a :visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a :hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a :active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  p {
-    color:black;
-    text-align: center;
-    font-style: normal;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    font-size: 100%;
-  }
-  
+}
+section {
+  background-color: #ddd;
+}
+
+/*================W3 School Exercise=============*/
+
+/*styling a link in different style*/
+
+h1 {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+h2 {
+  background: linear-gradient(
+    to right,
+    rgb(26, 2, 243) 0%,
+    rgb(7, 224, 240) 100%);
+  color: brown;
+  text-decoration: underline;
+  text-align:center;
+
+};
+
+a :link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a :visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a :hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a :active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+p {
+  color:black;
+  text-align: center;
+  font-style: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 100%;
+}
