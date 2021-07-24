@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Share+Tech+Mono&display=swap");
 
-/* Global styles */
 
 body {
-  background-image: url("star3.gif");
+  background-image: url("bck.gif");
   background-repeat: repeat;
 }
 
@@ -76,8 +75,8 @@ header {
 }
 
 .nav-brand {
-  width: 7rem;
-}
+  width: 10rem;
+  }
 
 nav {
   width: 100%;
@@ -372,46 +371,49 @@ hr {
 .skills .skills-content .column {
   width: calc(80% - 50px);
 }
+
+
+
+
+
 .skills .skills-content .left .text {
   font-size: 20px;
   font-weight: 400;
-  margin-bottom: 10px;
-  font-family: "Poppins", sans-serif;
-}
-.skills .skills-content .left pre {
-  font-size: 17px;
-  text-align: center;
+  margin-bottom: 20px;
   font-family: "Poppins", sans-serif;
 }
 
+
 .skills .skills-content .right .bars {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   text-align: center;
 }
 .skills .skills-content .right .info {
   text-align: center;
   display: flex;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   align-items: center;
   justify-content: space-between;
 }
 .skills .skills-content .right span {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.4rem;
 }
 .skills .skills-content .right .line {
-  height: 5px;
+  height: 15px;
   width: 100%;
   background: lightgrey;
   position: relative;
 }
+
+
 .skills .skills-content .right .line::before {
   content: "";
   position: absolute;
   height: 100%;
   left: 0;
   top: 0;
-  background: rgb(38, 2, 241);
+  background: rgb(255, 94, 0);
 }
 .skills-content .right .html::before {
   width: 80%;
@@ -427,6 +429,17 @@ hr {
 }
 .skills-content .right .mysql::before {
   width: 65%;
+}
+@media screen and (min-width: 601px){
+  div.text{
+    font-size: 80px;
+  }
+
+}
+@media screen and (max-width: 600px){
+  div.text{
+    font-size: 30px;
+  }
 }
 /* Services */
 
@@ -522,8 +535,8 @@ hr {
   margin: 2rem 0;
   background: linear-gradient(
     to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
+    rgb(249, 14, 92) 0%,
+    rgb(6, 243, 164) 100%
   );
   -webkit-background-clip: "text";
   -webkit-text-fill-color: "transparent";
@@ -652,11 +665,12 @@ footer a {
     padding: 0.9rem 0.9rem;
   }
   .about-text-box h2 {
-    font-size: 3rem;
+    font-size: 10vw;
     margin-bottom: 20px;
   }
   .about-text-box p {
     margin: 0 0 2.45rem;
+    font-size: 5vw;
   }
 
   .title-heading h2 {
