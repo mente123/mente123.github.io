@@ -410,42 +410,42 @@ hr {
   height: 100%;
   left: 0;
   top: 0;
- /* background: rgb(162, 0, 255);*/
+ background: rgba(0, 183, 255, 0.795);
 }
 .skills-content .right .html::before {
   width: 80%;
-  background-color: green;
+
 }
 .skills-content .right .css::before {
   width: 55%;
-  background-color: yellow;
+ 
 }
 .skills-content .right .js::before {
   width: 45%;
-  background-color: red;
+
 }
 .skills-content .right .php::before {
   width: 50%;
-  background-color: green;
+
 }
 .skills-content .right .python::before {
   width: 65%;
-  background-color: yellow;
+
 }
 
 .skills-content .right .mysql::before {
   width: 60%;
-  background-color: red;
+
 }
 
 .skills-content .right .Adobe::before {
   width: 85%;
-  background-color: yellow;
+
 }
 
 .skills-content .right .Illus::before {
   width: 80%;
-  background-color: green;
+
 }
 
 
