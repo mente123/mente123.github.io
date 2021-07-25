@@ -368,13 +368,10 @@ hr {
 }
 /* skills */
 
+
 .skills .skills-content .column {
   width: calc(80% - 50px);
 }
-
-
-
-
 
 .skills .skills-content .left .text {
   font-size: 20px;
@@ -413,23 +410,47 @@ hr {
   height: 100%;
   left: 0;
   top: 0;
-  background: rgb(255, 94, 0);
+ /* background: rgb(162, 0, 255);*/
 }
 .skills-content .right .html::before {
   width: 80%;
+  background-color: green;
 }
 .skills-content .right .css::before {
   width: 55%;
+  background-color: yellow;
 }
 .skills-content .right .js::before {
   width: 45%;
+  background-color: red;
 }
 .skills-content .right .php::before {
   width: 50%;
+  background-color: green;
 }
-.skills-content .right .mysql::before {
+.skills-content .right .python::before {
   width: 65%;
+  background-color: yellow;
 }
+
+.skills-content .right .mysql::before {
+  width: 60%;
+  background-color: red;
+}
+
+.skills-content .right .Adobe::before {
+  width: 85%;
+  background-color: blueviolet;
+}
+
+.skills-content .right .Illus::before {
+  width: 80%;
+  background-color: blue;
+}
+
+
+
+
 @media screen and (min-width: 601px){
   div.text{
     font-size: 80px;
@@ -536,7 +557,7 @@ hr {
   background: linear-gradient(
     to right,
     rgb(249, 14, 92) 0%,
-    rgb(6, 243, 164) 100%
+    rgb(0, 109, 252) 100%
   );
   -webkit-background-clip: "text";
   -webkit-text-fill-color: "transparent";
