@@ -440,12 +440,12 @@ hr {
 
 .skills-content .right .Adobe::before {
   width: 85%;
-  background-color: blueviolet;
+  background-color: yellow;
 }
 
 .skills-content .right .Illus::before {
   width: 80%;
-  background-color: blue;
+  background-color: green;
 }
 
 
